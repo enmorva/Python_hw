@@ -1,0 +1,10 @@
+print("Введите первый список:")
+l1 = input().split()
+print("Введите второй список:")
+l2 = input().split()
+set1 = set(l1)
+set2 = set(l2)
+el = set1.intersection(set2)
+print("Общие элементы:", end=" ")
+for i in el:
+    print(i, end=" ")
